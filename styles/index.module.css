@@ -1,0 +1,264 @@
+.container {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  height: 10vh;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  background-color: #A7BBC7;
+  z-index: 1;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 1vh;
+}
+
+.navtitle{
+  margin-left: 1vw;
+  font-weight: bold;
+  font-size: 50pt;
+}
+
+.navitems{
+  height: 100%;
+  width: 20%;
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link_remove_decoration{
+  text-decoration: none;
+}
+
+.main{
+  min-height: 80vh;
+  width: 100vw;
+}
+
+.main_top_section{
+  padding: 2vh 2vw;
+}
+
+.main_intro{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_intro_detail{
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.main_intro_name{
+  font-size: 100pt;
+}
+
+.main_intro_categories, .main_intro_buttons {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  font-size: 15pt;
+}
+
+.main_intro_categorie_item {
+  margin: 1%;
+  padding: 1%;
+  border-radius: 100rem;
+}
+
+.main_into_resume{
+  background-color:#C7E4FF;
+  border: 0px;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 10px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.main_intro_picture{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  padding: 2vw;
+}
+
+.main_skills{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 25vh;
+  margin-top: 5vh;
+}
+
+.main_skills_item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  width: 12.5vw;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #E1E5EA, #A7BBC7);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;
+}
+
+.main_skills_item:hover{
+  background-position: 0 -100%;
+}
+
+.main_skills_image{
+  width: 50%;
+  height: 50%;
+  margin: 5%;
+}
+
+.main_skills_title{
+  width: 90%;
+  margin: 10%;
+  text-align: center;
+  color: black;
+}
+
+.main_about_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+
+.main_about_image{
+  display: flex;
+  justify-content: center;
+}
+
+.main_about_image_img{
+  height: 15vh;
+  width: 15vh;
+}
+
+.main_about_title{
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+  margin: 2%;
+}
+
+.main_about_description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 3vw;
+}
+
+.main_about_description_detail{
+  font-size: 17pt;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main_project_section_odd{
+  display: flex;
+  flex-direction: row;
+  background-color: #A7BBC7;
+  padding: 5vh;
+  height: 70vh;
+}
+
+.main_project_detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  padding: 5vh;
+}
+
+.main_project_detail_categories{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1vh 0 1vh 0;
+}
+
+.main_project_detail_categorie_item{
+  padding: 1vh 2vh 1vh 2vh;
+  background-color: #C7E4FF;
+  border-radius: 20px;
+  margin-right: 2vh;
+}
+
+.main_project_image_section{
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+  padding: 5vw;
+}
+
+.main_project_image{
+  width: 40vw;
+}
+
+.main_project_section_even{
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  padding: 5vh;
+  height: 70vh;
+}
+
+.main_project_image_portrait{
+  height: 100%;
+}
+
+.main_project_github_section{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1vh 0 1vh 0;
+}
+
+.main_project_github_item{
+  display: flex;
+  align-items: center;
+  padding: 1vh 2vh 1vh 2vh;
+  background-color: #04132F;
+  border-radius: 20px;
+  margin-right: 2vh;
+  color: white;
+}
+
+.main_project_github_item_name{
+  margin: 0 0.5vw 0 0;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  background-color: #A7BBC7;
+}
+
+.footericon{
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}

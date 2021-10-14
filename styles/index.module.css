@@ -39,7 +39,7 @@
 }
 
 .nav_item{
-  padding: 1vh;
+  padding: 1vh 2vw;
   text-decoration: none;
   color: black;
 }
@@ -241,10 +241,6 @@
   height: 100%;
 }
 
-.main_project_image_landscape{
-  
-}
-
 .main_project_github_section{
   display: flex;
   flex-direction: row;
@@ -283,22 +279,31 @@
   text-decoration: none;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 650px) {
   
   .header{
     height: 35vh;
   }
 
   .nav{
+    margin: 2%;
     flex-direction: column;
+    height: 90%;
+    width: 100%;
   }
 
   .navitems{
     flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  .nav_item{
+    padding: 1vh 10vw;
   }
 
   .main_top_section{
-    height: 400vh;
+    height: 360vh;
   }
 
   .main_intro{
@@ -311,6 +316,12 @@
 
   .main_intro_categorie_item{
     font-size: 10pt;
+  }
+
+  .main_intro_picture{
+    padding: 10%;
+    height: 80%;
+    width: 100%;
   }
 
   .main_intro{
@@ -334,7 +345,7 @@
   }
 
   .main_about_section{
-    height: 120vh;
+    height: 90vh;
   }
 
   .main_skills_item{
@@ -342,8 +353,8 @@
   }
 
   .main_about_image_img{
-    width: 50vw;
-    height: 25vh;
+    width: 40vw;
+    height: 20vh;
   }
 
   .main_about_title{
@@ -351,16 +362,16 @@
   }
 
   .main_about_description_detail{
-    font-size: 12pt;
+    font-size: 10pt;
   }
 
   .main_project_section_odd, .main_project_section_even{
     flex-direction: column;
-    height: 200vh;
+    height: 170vh;
   }
 
   .main_project_detail{
-    height: 115vh;
+    height: 105vh;
     width: 85vw;
   }
 
@@ -371,7 +382,7 @@
   .main_project_detail_categories{
     flex-direction: column;
     justify-content: space-around;
-    height: 40vh;
+    height: 30vh;
   }
 
   .main_project_detail_categorie_item{

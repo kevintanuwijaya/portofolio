@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/index.module.css'
-import { useRouter } from 'next/router'
 import Link from 'next/link'
 import skill1 from '../public/skills/clock.png'
 import skill2 from '../public/skills/web.png'
@@ -10,7 +9,6 @@ import skill4 from '../public/skills/leader.png'
 import skill5 from '../public/skills/support.png'
 import skill6 from '../public/skills/language.png'
 import skill7 from '../public/skills/thinking.png'
-import { Carousel } from 'react-bootstrap'
 
 export default function Home(){
   return (

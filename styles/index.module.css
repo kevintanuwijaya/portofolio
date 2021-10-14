@@ -38,6 +38,18 @@
   align-items: center;
 }
 
+.nav_item{
+  padding: 1vh;
+  text-decoration: none;
+  color: black;
+}
+
+.nav_item:hover{
+  text-decoration: none;
+  border-radius: 5rem;
+  background-color: #E1E5EA;
+}
+
 .link_remove_decoration{
   text-decoration: none;
 }
@@ -202,6 +214,10 @@
   margin-right: 2vh;
 }
 
+.main_project_detail_description{
+  font-size: 15pt;
+}
+
 .main_project_image_section{
   display: flex;
   justify-content: space-around;
@@ -223,6 +239,10 @@
 
 .main_project_image_portrait{
   height: 100%;
+}
+
+.main_project_image_landscape{
+  
 }
 
 .main_project_github_section{
@@ -261,4 +281,126 @@
   display: flex;
   justify-content: space-between;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 640px) {
+  
+  .header{
+    height: 35vh;
+  }
+
+  .nav{
+    flex-direction: column;
+  }
+
+  .navitems{
+    flex-direction: column;
+  }
+
+  .main_top_section{
+    height: 400vh;
+  }
+
+  .main_intro{
+    flex-direction: column;
+  }
+
+  .main_intro_name{
+    font-size: 30pt;
+  }
+
+  .main_intro_categorie_item{
+    font-size: 10pt;
+  }
+
+  .main_intro{
+    height: 80vh;
+    justify-content: space-between;
+  }
+
+  .main_intro_detail{
+    width: 100vw;
+  }
+
+  .main_intro_buttons{
+    font-size: 10pt;
+  }
+
+  .main_skills{
+    flex-direction: column;
+    align-items: center;
+    width: 96vw;
+    height: 180vh;
+  }
+
+  .main_about_section{
+    height: 120vh;
+  }
+
+  .main_skills_item{
+    width: 50vw;
+  }
+
+  .main_about_image_img{
+    width: 50vw;
+    height: 25vh;
+  }
+
+  .main_about_title{
+    font-size: 20pt;
+  }
+
+  .main_about_description_detail{
+    font-size: 12pt;
+  }
+
+  .main_project_section_odd, .main_project_section_even{
+    flex-direction: column;
+    height: 200vh;
+  }
+
+  .main_project_detail{
+    height: 115vh;
+    width: 85vw;
+  }
+
+  .main_project_detail_description{
+    font-size: 13pt;
+  }
+
+  .main_project_detail_categories{
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+  }
+
+  .main_project_detail_categorie_item{
+    width: 100%;
+  }
+
+  .main_project_image_section{
+    width: 85vw;
+    height: 60vh;
+    align-items: flex-end;
+  }
+
+  .main_project_image_landscape{
+    height: 50vh;
+    width: 85vw;
+  }
+
+  .main_project_image{
+    width: 80vw;
+    height: 50vh;
+  }
+
+  .main_project_image_portrait{
+    height: 35vh;
+    width: 35vw;
+  }
+
+  .footericon{
+    width: 40vw;
+  }
+
 }

@@ -58,7 +58,7 @@ export default function Home(){
                 </a>
               </div>
               <div className={styles.main_intro_picture}>
-                <img src='vercel.svg' />
+                <img src='assets/photo.png' />
               </div>
             </div>
             <div className={styles.main_skills}>
@@ -128,7 +128,7 @@ export default function Home(){
             </div>
             <div className={styles.main_about_section}>
                 <div className={styles.main_about_image}>
-                  <img src='/skills/thinking.png' className={styles.main_about_image_img} />
+                  <img src='assets/profile.jpg' className={styles.main_about_image_img} />
                 </div>
                 <span className={styles.main_about_title}>About Me</span>
                 <div className={styles.main_about_description}>
@@ -198,6 +198,38 @@ export default function Home(){
                         </div>
                       </a>
                   </div>
+                </div>
+            </div>
+            <div className={styles.main_project_section_odd}>
+                <div className={styles.main_project_detail}>
+                  <h1>Framework Web Project</h1>
+                  <p className={styles.main_project_detail_description}>
+                      This is my first website project with Laravel Framework called fiveBr. The project was made only by my hand and it is still ongoing until now. Languages that I used are HTML, CSS, PHP, and some styling that I get from Bootstrap Framework. Since the project was constructed by myself, I just make a repository in Github.
+                  </p>
+                  <div className={styles.main_project_detail_categories}>
+                      <div className={styles.main_project_detail_categorie_item}>
+                          Laravel
+                      </div>
+                      <div className={styles.main_project_detail_categorie_item}>
+                          HTML
+                      </div>
+                      <div className={styles.main_project_detail_categorie_item}>
+                          CSS
+                      </div>
+                      <div className={styles.main_project_detail_categorie_item}>
+                          PHP
+                      </div>
+                  </div>
+                  <div className={styles.main_project_github_section}>
+                      <a href='https://github.com/kevintanuwijaya/fiveBR' className={styles.link_remove_decoration}>
+                        <div className={styles.main_project_github_item}>
+                            <span className={styles.main_project_github_item_name}>Visit the GitHub Project</span><i class="bi bi-github" style={{fontSize:20}}></i>
+                        </div>
+                      </a>
+                  </div>
+                </div>
+                <div className={styles.main_project_image_section}>
+                    <img src='/fiveBR/fiveBR (1).png' className={styles.main_project_image, styles.main_project_image_landscape} />
                 </div>
             </div>
       </main>

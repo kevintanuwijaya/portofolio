@@ -55,7 +55,7 @@
 }
 
 .main{
-  min-height: 80vh;
+  min-height: 100%;
   width: 100vw;
 }
 
@@ -160,8 +160,9 @@
 }
 
 .main_about_image_img{
-  height: 15vh;
-  width: 15vh;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
 }
 
 .main_about_title{
@@ -212,6 +213,7 @@
   background-color: #C7E4FF;
   border-radius: 20px;
   margin-right: 2vh;
+  font-weight: bold;
 }
 
 .main_project_detail_description{

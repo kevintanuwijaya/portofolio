@@ -34,7 +34,7 @@
   width: 20%;
   margin-right: 2%;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
 }
 
@@ -145,6 +145,7 @@
   margin: 10%;
   text-align: center;
   color: black;
+  font-size: 15pt;
 }
 
 .main_about_section{
@@ -256,7 +257,6 @@
   padding: 1vh 2vh 1vh 2vh;
   background-color: #04132F;
   border-radius: 20px;
-  margin-right: 2vh;
   color: white;
 }
 
@@ -264,12 +264,39 @@
   margin: 0 0.5vw 0 0;
 }
 
+.github_section{
+  padding: 5vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.github_project{
+  display: flex;
+  justify-content: space-around;
+  margin: 5vh;
+  width: 100%;
+}
+
+.github_project_item{
+  background-color:#C7E4FF;
+  border: 0px;
+  padding: 3%;
+  margin: 4%;
+  border-radius: 10px;
+  font-size: 10pt;
+  font-weight: bold;
+  width: 10vw;
+  height: 5vh;
+}
+
 .footer{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  height: 10vh;
+  height: 15vh;
   width: 100vw;
   background-color: #A7BBC7;
 }
@@ -284,7 +311,7 @@
 @media only screen and (max-width: 650px) {
   
   .header{
-    height: 35vh;
+    height: 30vh;
   }
 
   .nav{
@@ -305,7 +332,7 @@
   }
 
   .main_top_section{
-    height: 360vh;
+    height: 390vh;
   }
 
   .main_intro{
@@ -343,7 +370,7 @@
     flex-direction: column;
     align-items: center;
     width: 96vw;
-    height: 180vh;
+    height: 210vh;
   }
 
   .main_about_section{
@@ -414,6 +441,16 @@
 
   .footericon{
     width: 40vw;
+  }
+
+  .github_project{
+    flex-direction: column;
+  }
+
+  .github_project_item{
+    width: 75vw;
+    height: 6vh;
+    padding: 2%;
   }
 
 }

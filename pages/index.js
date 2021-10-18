@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/index.module.css'
-import Link from 'next/link'
 import skill1 from '../public/skills/clock.png'
 import skill2 from '../public/skills/web.png'
 import skill3 from '../public/skills/mobile.png'
@@ -30,10 +29,7 @@ export default function Home(){
                 <a href='/' className={styles.nav_item}>
                   <span>Home</span>
                 </a>
-                <a href='/' className={styles.nav_item}>
-                  <span>Project</span>
-                </a>
-                <a href='/' className={styles.nav_item}>
+                <a href='/award' className={styles.nav_item}>
                   <span>Award</span>
                 </a>
             </div>
@@ -123,7 +119,7 @@ export default function Home(){
                       sizes={500}
                       />
                   </div>
-                  <div className={styles.main_skills_title}>Languange</div>
+                  <div className={styles.main_skills_title}>Fast Learner</div>
               </div>
             </div>
             <div className={styles.main_about_section}>
@@ -161,7 +157,7 @@ export default function Home(){
                   <div className={styles.main_project_github_section}>
                       <a href='https://github.com/mtirtapradja/project-hci-lab' className={styles.link_remove_decoration}>
                         <div className={styles.main_project_github_item}>
-                            <span className={styles.main_project_github_item_name}>Visit the GitHub Project</span><i class="bi bi-github" style={{fontSize:20}}></i>
+                            <span className={styles.main_project_github_item_name}>Visit the Project Repository</span><i class="bi bi-github" style={{fontSize:20}}></i>
                         </div>
                       </a>
                   </div>
@@ -194,7 +190,7 @@ export default function Home(){
                   <div className={styles.main_project_github_section}>
                       <a href='https://github.com/kevintanuwijaya/Project-BiLocker' className={styles.link_remove_decoration}>
                         <div className={styles.main_project_github_item}>
-                            <span className={styles.main_project_github_item_name}>Visit the GitHub Project</span><i class="bi bi-github" style={{fontSize:20}}></i>
+                            <span className={styles.main_project_github_item_name}>Visit the Project Repository</span><i class="bi bi-github" style={{fontSize:20}}></i>
                         </div>
                       </a>
                   </div>
@@ -223,7 +219,7 @@ export default function Home(){
                   <div className={styles.main_project_github_section}>
                       <a href='https://github.com/kevintanuwijaya/fiveBR' className={styles.link_remove_decoration}>
                         <div className={styles.main_project_github_item}>
-                            <span className={styles.main_project_github_item_name}>Visit the GitHub Project</span><i class="bi bi-github" style={{fontSize:20}}></i>
+                            <span className={styles.main_project_github_item_name}>Visit the Project Repository</span><i class="bi bi-github" style={{fontSize:20}}></i>
                         </div>
                       </a>
                   </div>
@@ -232,18 +228,44 @@ export default function Home(){
                     <img src='/fiveBR/fiveBR (1).png' className={styles.main_project_image, styles.main_project_image_landscape} />
                 </div>
             </div>
+            <div className={styles.github_section}>
+                <h2>Another Project that I Participate Into</h2>
+                <div className={styles.github_project}>
+                  <a href='https://github.com/kevintanuwijaya/Snap_It' className={styles.link_remove_decoration}>
+                    <button className={styles.github_project_item}>Snap IT</button>
+                  </a>
+                  <a href='https://github.com/mtirtapradja/project-psd-lab' className={styles.link_remove_decoration}>
+                    <button className={styles.github_project_item}>Project ASP.NET</button>
+                  </a>
+                  <a href='https://github.com/kevintanuwijaya/Project-OOAD' className={styles.link_remove_decoration}>
+                    <button className={styles.github_project_item}>Project Java GUI and Jdbc</button>
+                  </a>
+                  <a href='https://github.com/kevintanuwijaya/Project' className={styles.link_remove_decoration}>
+                    <button className={styles.github_project_item}>Project Web - Laravel</button>
+                  </a>
+                </div>
+                <a href='https://github.com/kevintanuwijaya' className={styles.link_remove_decoration}>
+                  <div className={styles.main_project_github_item}>
+                      <span className={styles.main_project_github_item_name}>Visit My Github</span><i class="bi bi-github" style={{fontSize:20}}></i>
+                  </div>
+                </a>
+            </div>
       </main>
 
       <footer className={styles.footer}>
         <div className={styles.footericon}>
             <a href='https://www.linkedin.com/in/kevin-tanuwijaya-23a2771a3/'>
-              <i class="bi bi-linkedin" style={{fontSize:30}} ></i>
+              <i class="bi bi-linkedin" style={{fontSize:30,color:'white'}} ></i>
             </a>
             <a href='https://github.com/kevintanuwijaya'>
-              <i class="bi bi-github" style={{fontSize:30}}></i>
+              <i class="bi bi-github" style={{fontSize:30,color:'white'}}></i>
             </a>
-          <i class="bi bi-facebook" style={{fontSize:30}}></i>
-          <i class="bi bi-whatsapp" style={{fontSize:30}}></i>
+            <a href='https://www.facebook.com/kevin.tanuwijaya.984'>
+              <i class="bi bi-facebook" style={{fontSize:30,color:'white'}}></i>
+            </a>
+            <a href='https://wa.me/6282295267506'>
+              <i class="bi bi-whatsapp" style={{fontSize:30,color:'white'}}></i>
+            </a>
         </div>
         <span>©2021 Kevin Tanuwijaya</span>
       </footer>

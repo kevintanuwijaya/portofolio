@@ -16,9 +16,11 @@ export default function Award(){
             <header className={styles.header}>
                 <nav className={styles.nav}>
                     <div>
-                    <span className={styles.navtitle}>
-                        K
-                    </span>
+                    <a href='/' className={styles.link_remove_decoration}>
+                        <span className={styles.navtitle}>
+                            K
+                        </span>
+                    </a>
                     </div>
                     <div className={styles.navitems}>
                         <a href='/' className={styles.nav_item}>
@@ -35,21 +37,134 @@ export default function Award(){
                 <div className={styles.main_top_section}>
                     <div className={styles.main_intro}>
                         <div className={styles.main_intro_detail}>
-                            <span className={styles.main_intro_name}>KEVIN</span>
-                            <br></br>
-                            <span className={styles.main_intro_name}>TANUWIJAYA</span>
+                            <span className={styles.main_intro_name}>MY AWARD</span>
                             <div className={styles.main_intro_categories}>
-                                <span className={styles.main_intro_categorie_item}>Computer Science</span>
-                                <span className={styles.main_intro_categorie_item}>Software Engineer</span>
+                                <span className={styles.main_intro_categorie_item}>Certificate</span>
+                                <span className={styles.main_intro_categorie_item}>Courses</span>
+                                <span className={styles.main_intro_categorie_item}>Training</span>
                             </div>
-                            <a href='https://drive.google.com/file/d/14eWqzdXuqkjdFEZsfykyQzWphezPfdfr/view?usp=sharing' className={styles.link_remove_decoration}>
-                            <div className={styles.main_intro_buttons}>
-                                <button className={styles.main_into_resume}>Download Resume</button>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.main_award_section}>
+                    <div className={styles.main_award_items}>
+                        <div className={styles.certificate_image_section}>
+                            <img src='certificate/HMS.jpg' className={styles.certificate_image}/>
+                        </div>
+                        <div className={styles.certificate_detail_section}>
+                            <h3>HMS Fondation Course by HUAWEI</h3>
+                            <p>With this course, I learned how to develope an android application using Java Language. The Course took about 2 months and the topics were about implementing and integrating HUAWEI KITS. The outcome of this course I managed to create an application called Snap IT.</p>
+                            <div className={styles.certificate_categories}>
+                                <div className={styles.certificate_categorie_item}>
+                                    Mobile
+                                </div>
+                                <div className={styles.certificate_categorie_item}>
+                                    Android Studio
+                                </div>
+                                <div className={styles.certificate_categorie_item}>
+                                    JAVA
+                                </div>
+                                <div className={styles.certificate_categorie_item}>
+                                    Courses
+                                </div>
                             </div>
+                            <a href='https://developer.huawei.com/consumer/en/training/cert/TIDibflxmt' className={styles.link_remove_decoration}>
+                                <div className={styles.check_credent_button}>
+                                    <span>Check Credential</span>
+                                </div>
+                            </a>
+                            <p>Certificate Code: TIDibflxmt</p>
+                        </div>
+                    </div>
+                    <div className={styles.main_award_items}>
+                        <div className={styles.certificate_image_section}>
+                            <img src='certificate/Beelajar.png' className={styles.certificate_image}/>
+                        </div>
+                        <div className={styles.certificate_detail_section}>
+                            <h3>English for Teaching Purposes by Beelajar</h3>
+                            <p>I took the Training after I got accepted as Software Laboratory Instructor. The Training took about 4 days and I learned about teaching methodology and how to deliver a class with English. The outcome of this training is that I was given the responsibility to tutor a global laboratory class in BINUS</p>
+                            <div className={styles.certificate_categories}>
+                                <div className={styles.certificate_categorie_item}>
+                                    Tutor
+                                </div>
+                                <div className={styles.certificate_categorie_item}>
+                                    English
+                                </div>
+                                <div className={styles.certificate_categorie_item}>
+                                    JAVA
+                                </div>
+                            </div>
+                            <a href='https://beelajar.apps.binus.edu/verify_certificate' className={styles.link_remove_decoration}>
+                                <div className={styles.check_credent_button}>
+                                    <span>Check Credential</span>
+                                </div>
+                            </a>
+                            <p>Certificate Code: Qj8mvZpqs1</p>
+                        </div>
+                    </div>
+                    <div className={styles.main_award_items}>
+                        <div className={styles.certificate_image_section}>
+                            <img src='certificate/Coursera.png' className={styles.certificate_image}/>
+                        </div>
+                        <div className={styles.certificate_detail_section}>
+                            <h3>Java for Android by Coursera</h3>
+                            <p>I took the Course because I am interested in mobile development. I learned about basic android development using JAVA in Android Studio. The outcome of this course I got basic principle about Android development which I implement it on my mobile project.</p>
+                            <div className={styles.certificate_categories}>
+                                <div className={styles.certificate_categorie_item}>
+                                    Mobile
+                                </div>
+                                <div className={styles.certificate_categorie_item}>
+                                    Android Studio
+                                </div>
+                                <div className={styles.certificate_categorie_item}>
+                                    JAVA
+                                </div>
+                                <div className={styles.certificate_categorie_item}>
+                                    Courses
+                                </div>
+                            </div>
+                            <a href='https://www.coursera.org/verify/YJCCC5T5CLQ5' className={styles.link_remove_decoration}>
+                                <div className={styles.check_credent_button}>
+                                    <span>Check Credential</span>
+                                </div>
                             </a>
                         </div>
-                        <div className={styles.main_intro_picture}>
-                            <img src='assets/photo.png' />
+                    </div>
+                    <div className={styles.main_award_items}>
+                        <div className={styles.certificate_image_section}>
+                            <img src='certificate/KMK.jpeg' className={styles.certificate_image}/>
+                        </div>
+                        <div className={styles.certificate_detail_section}>
+                            <h3>Event Chairman Certificate by KMK BINUS University</h3>
+                            <p>KMK BINUS is the organization that I joined during my study at BINUS. I was choosen as Event Chairman in one of KMK BINUS annualy event called <i>Penerimaan Mahasiswa Baru</i>. The outcome of this experience are I learned leadership, teamwork, dicipline, and time management which I believe are important when I start working.</p>
+                            <div className={styles.certificate_categories}>
+                                <div className={styles.certificate_categorie_item}>
+                                    Organization
+                                </div>
+                                <div className={styles.certificate_categorie_item}>
+                                    Soft Skill
+                                </div>
+                                <div className={styles.certificate_categorie_item}>
+                                    Leader
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.main_award_items}>
+                        <div className={styles.certificate_image_section}>
+                            <img src='certificate/HSK.jpg' className={styles.certificate_image}/>
+                        </div>
+                        <div className={styles.certificate_detail_section}>
+                            <h3>Chinese Proficiency Test 4 (汉语水平考试)</h3>
+                            <p>I Took the test in 2018 and I passed the minimum score in the listening, the writing, and the reading part. This certificate shows my spirit in learing foreign language and also to take part in global market competition</p>
+                            <div className={styles.certificate_categories}>
+                                <div className={styles.certificate_categorie_item}>
+                                    Forein Language
+                                </div>
+                                <div className={styles.certificate_categorie_item}>
+                                    Mandarin
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

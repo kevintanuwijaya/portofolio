@@ -120,17 +120,23 @@
 .certificate_image_section{
   display: flex;
   justify-content: center;
-  width: 45vw;
+  width: 42.5vw;
+  margin-right: 2.5vw;
 }
 
 .certificate_detail_section{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 45vw;
+  width: 42.5vw;
+  margin-left: 2.5vw;
 }
 
-.certificate_image{
+.certificate_image_landspace{
+  width: 40vw;
+}
+
+.certificate_image_potrait{
   height: 50vh;
 }
 
@@ -234,8 +240,9 @@
     align-items: center;
   }
   
-  .certificate_image{
-    height: 20vh;
+  .certificate_image_potrait{
+    width: 40vw;
+    height: 40vh;
   }
 
   .certificate_categories{

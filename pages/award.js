@@ -49,7 +49,7 @@ export default function Award(){
                 <div className={styles.main_award_section}>
                     <div className={styles.main_award_items}>
                         <div className={styles.certificate_image_section}>
-                            <img src='certificate/HMS.jpg' className={styles.certificate_image}/>
+                            <img src='certificate/HMS.jpg' className={styles.certificate_image_potrait}/>
                         </div>
                         <div className={styles.certificate_detail_section}>
                             <h3>HMS Fondation Course by HUAWEI</h3>
@@ -78,7 +78,7 @@ export default function Award(){
                     </div>
                     <div className={styles.main_award_items}>
                         <div className={styles.certificate_image_section}>
-                            <img src='certificate/Beelajar.png' className={styles.certificate_image}/>
+                            <img src='certificate/Beelajar.png' className={styles.certificate_image_landspace}/>
                         </div>
                         <div className={styles.certificate_detail_section}>
                             <h3>English for Teaching Purposes by Beelajar</h3>
@@ -104,7 +104,7 @@ export default function Award(){
                     </div>
                     <div className={styles.main_award_items}>
                         <div className={styles.certificate_image_section}>
-                            <img src='certificate/Coursera.png' className={styles.certificate_image}/>
+                            <img src='certificate/Coursera.png' className={styles.certificate_image_landspace}/>
                         </div>
                         <div className={styles.certificate_detail_section}>
                             <h3>Java for Android by Coursera</h3>
@@ -132,7 +132,7 @@ export default function Award(){
                     </div>
                     <div className={styles.main_award_items}>
                         <div className={styles.certificate_image_section}>
-                            <img src='certificate/KMK.jpeg' className={styles.certificate_image}/>
+                            <img src='certificate/KMK.jpeg' className={styles.certificate_image_landspace}/>
                         </div>
                         <div className={styles.certificate_detail_section}>
                             <h3>Event Chairman Certificate by KMK BINUS University</h3>
@@ -152,7 +152,7 @@ export default function Award(){
                     </div>
                     <div className={styles.main_award_items}>
                         <div className={styles.certificate_image_section}>
-                            <img src='certificate/HSK.jpg' className={styles.certificate_image}/>
+                            <img src='certificate/HSK.jpg' className={styles.certificate_image_potrait}/>
                         </div>
                         <div className={styles.certificate_detail_section}>
                             <h3>Chinese Proficiency Test 4 (汉语水平考试)</h3>

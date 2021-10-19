@@ -21,9 +21,11 @@ export default function Home(){
       <header className={styles.header}>
         <nav className={styles.nav}>
             <div>
-              <span className={styles.navtitle}>
-                K
-              </span>
+              <a href='/' className={styles.link_remove_decoration}>
+                  <span className={styles.navtitle}>
+                      K
+                  </span>
+              </a>
             </div>
             <div className={styles.navitems}>
                 <a href='/' className={styles.nav_item}>
@@ -49,7 +51,7 @@ export default function Home(){
                 </div>
                 <a href='https://drive.google.com/file/d/14eWqzdXuqkjdFEZsfykyQzWphezPfdfr/view?usp=sharing' className={styles.link_remove_decoration}>
                   <div className={styles.main_intro_buttons}>
-                    <button className={styles.main_into_resume}>Download Resume</button>
+                    <button className={styles.main_into_resume}>See Resume</button>
                   </div>
                 </a>
               </div>

@@ -27,6 +27,7 @@
   margin-left: 1vw;
   font-weight: bold;
   font-size: 50pt;
+  color: black;
 }
 
 .navitems{
@@ -332,7 +333,7 @@
   }
 
   .main_top_section{
-    height: 390vh;
+    height: 370vh;
   }
 
   .main_intro{
@@ -374,16 +375,16 @@
   }
 
   .main_about_section{
-    height: 90vh;
+    height: 70vh;
   }
 
   .main_skills_item{
-    width: 50vw;
+    width: 35vw;
   }
 
   .main_about_image_img{
     width: 40vw;
-    height: 20vh;
+    height: 25vh;
   }
 
   .main_about_title{
